@@ -1,0 +1,234 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+header {
+	background-color: #5784BA;
+	padding: 20px 15px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+}
+header ul li {
+	display: inline-block;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+body{
+	background-color: #9AC8EB; 
+}
+.detail{
+	text-align: center;
+	font-family: "Lucida Handwriting", cursive;
+	color: #191970;
+}
+.txt{
+	float: left;
+	font-family: "Garamond", serif;
+	padding-top: 35px;
+	padding-left: 100px;
+}
+.txt1{
+	float: left;
+	font-family: "Garamond", serif;
+	padding-top: 40px;
+	padding-left: 120px;
+}
+.fotoSilinder{
+	float: left;
+	padding-left: 100px;
+	padding-top: 25px;
+}
+.fotoBola{
+	float: left;
+	padding-left: 90px;
+	padding-top: 75px;
+}
+.fotoKerucut{
+	float: right;
+	padding-right: 50px;
+	padding-top: 75px;
+}
+p{
+	font-size: 20px;
+	text-align: left;
+}
+input[type=submit]{
+	padding: 20px;
+ 	color: white;
+ 	border: none;
+ 	margin: 20px;
+ 	border-radius: 10px;
+ 	cursor: pointer;
+ 	background-color: #5784BA;
+}
+button[type=button]{
+	float: left;
+	margin: 30px 100px;
+ 	cursor: pointer;
+ 	padding: 20px;
+ 	border: none;
+ 	border-radius: 10px;
+ 	background-color: #5784BA;
+ 	color: white;
+}
+footer {
+	text-align: center;
+	border: 0px solid;
+	color: #5784BA;
+	margin-top: 600px;
+	padding: 0px;	
+}
+.medsos ul li {
+	display: inline-block;
+	font-size: 30px;
+	padding: 2px;	
+}
+.medsos small{
+	font-size: 15px;
+}
+
+
+.silinder{
+	float: left;
+	padding-top: 50px;
+	padding-left: 75px;
+}
+.jarijari{
+	 float: left;
+	 font-size: 30px;
+	 padding-top: 50px;
+	 padding-left: 100px;
+}
+.jarijari input{
+	float: left;
+ 	padding: 10px;
+ 	height: 10px;
+ 	width: 10%;
+  	margin-top: -25px;
+  	margin-left: 350px;
+}
+.tinggi{
+	 float: left;
+	 font-size: 30px;
+	 padding-top: 20px;
+	 padding-left: 100px;
+}
+.tinggi input{
+	float: left;
+ 	padding: 10px;
+ 	height: 10px;
+ 	width: 10%;
+  	margin-top: -25px;
+  	margin-left: 350px;
+}
+.bola{
+	float: left;
+	padding-top: 50px;
+	padding-left: 75px;
+}
+.jarijaribola{
+	 float: left;
+	 font-size: 30px;
+	 padding-top: 150px;
+	 padding-left: 100px;
+}
+.jarijaribola input{
+	float: left;
+ 	padding: 10px;
+ 	height: 10px;
+ 	width: 10%;
+  	margin-top: -25px;
+  	margin-left: 325px;
+}
+
+.kerucut{
+	float: left;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.jarijariker{
+	 float: left;
+	 font-size: 30px;
+	 padding-top: 70px;
+	 padding-left: 100px;
+
+}
+.jarijariker input{
+	float: left;
+ 	padding: 10px;
+ 	height: 10px;
+ 	width: 10%;
+  	margin-top: -25px;
+  	margin-left: 400px;
+}
+.garis{
+	 float: left;
+	 font-size: 30px;
+	 padding-top: 20px;
+	 padding-left: 100px;
+}
+.garis input{
+	float: left;
+ 	padding: 10px;
+ 	height: 10px;
+ 	width: 10%;
+  	margin-top: -25px;
+  	margin-left: 400px;
+}
+.tinggiker{
+	 float: left;
+	 font-size: 30px;
+	 padding-top: 20px;
+	 padding-left: 100px;
+}
+.tinggiker input{
+	float: left;
+ 	padding: 10px;
+ 	height: 10px;
+ 	width: 10%;
+  	margin-top: -25px;
+  	margin-left: 400px;
+}
+
+.Hitung{
+	float: right;
+	padding-top: 50px;
+	padding-right: 200px;
+}
+.hasil{
+	float: right;
+	padding-right: 750px;
+	padding-top: 100px;
+}
+.hasilbol{
+	float: right;
+	padding-right: 510px;
+	padding-top: 150px;
+}
+.hasilker{
+	float: right;
+	padding-right: 500px;
+	padding-top: 120px;
+}
+.luas{
+	float: right;
+	padding-right: 785px;
+	padding-top: 10px;
+}
+.volume{
+	float: right;
+	padding-right: 855px;
+	padding-top: 15px;	
+}
+.Hitungbola{
+	float: right;
+	padding-top: 250px;
+	padding-right: 200px;
+}

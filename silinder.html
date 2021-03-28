@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewreport" content="width-device-width, initial-scale-1">
+	<title>3D Calc</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+</head>
+<body>
+
+	<header>
+		<div class="judul">	
+		<div class="container">
+
+		<ul>
+		 	<li><h1>3D Calculator</li></h1>
+		</ul>
+	</div>
+		</div>
+</header>
+	<div class="detail">
+		<h2>-Solusi untuk menghitung-</h2>
+	</div>
+<section>
+		<div class="silinder">
+			<img src="silinder.png" width="300" height="350">
+</div>
+</section>
+
+<section>
+	<div class="txt1">
+		<h2 id="text2"> Selamat Datang </h2>
+	</div>
+	<div class="jarijari">
+	<form action="/processing_page.php">
+		<p for="thisJ">Masukkan jari-jari silinder (dalam meter) </p>
+		<input type="text" id="thisJ">
+	</div>
+	</form>
+	<div class="tinggi">
+	<form action="/processing_page.php">
+		<p for="silinder">Masukkan tinggi silinder (dalam meter) </p>
+		<input type="text" id="silinder">
+	</div>
+	</form>
+	<div class="Hitung">
+		<button type="button message" value="HITUNG" onclick="silinder1()">HITUNG</button><br>
+	</div>
+</section>
+
+<section>
+</section>
+
+<div class="hasil">
+		<h2>Hasil Perhitungan</h2>
+	</div>
+	<div class="luas">
+		<p>Luas Permukaan: <span id="luassilinder"></span></span> m<sup>2</sup></p>
+	</div>
+	<div class="volume">
+		<p>Volume: <span id="volumsilinder"></span> m<sup>3</sup></p>
+		
+	</div>
+
+	
+<footer>
+	<div class="medsos">
+		<div class="container">	
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-github-square"></i></a></li>
+				<small>Copyright &copy; 2021 - Dila Nabilah. | All Rights Reserved.</small>
+			</ul>
+		</div>
+	</div>
+	</footer>
+
+<script src="javascript.js"></script>
+	<script> window.nama()</script>
+
+</body>
+</html>
